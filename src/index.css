@@ -15,6 +15,10 @@ a {
   box-sizing: border-box;
 }
 
+ul, ol {
+  list-style: none;
+}
+
 .example-button {
   background: rgb(86, 1, 245);
   color: white;
