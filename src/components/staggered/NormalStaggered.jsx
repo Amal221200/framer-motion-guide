@@ -3,11 +3,11 @@ import { useEffect } from "react"
 
 const skills = ['React JS', 'HTML', 'CSS', 'JavaScript', 'Node JS', 'Next JS', 'TypeScript', 'React Query', 'Rust', 'Tailwind CSS']
 
-const Staggered = () => {
+const NormalStaggered = () => {
   const [scope, animate] = useAnimate()
 
   useEffect(() => {
-    animate('li', { opacity: 1, y: 0 }, { delay: stagger(0.1, { from: 'first' }) })
+    animate('li', { opacity: 1, y: 0, }, { delay: stagger(0.1, { from: 'first' }) })
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
   return (
@@ -28,4 +28,4 @@ const Staggered = () => {
   )
 }
 
-export default Staggered
+export default NormalStaggered

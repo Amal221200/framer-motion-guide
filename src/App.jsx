@@ -5,7 +5,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom"
 import MainLayout from "./layout/MainLayout"
 import UseAnimationControls from "./components/UseAnimationControls"
 import ScrollBased from "./components/ScrollBased"
-import Staggered from "./components/Staggered"
+import Staggered from "./components/staggered"
 import ViewBased from "./components/ViewBased"
 
 const router = createBrowserRouter([
