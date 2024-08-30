@@ -7,6 +7,7 @@ import UseAnimationControls from "./components/UseAnimationControls"
 import ScrollBased from "./components/ScrollBased"
 import Staggered from "./components/staggered"
 import ViewBased from "./components/ViewBased"
+import DraggableList from "./components/DraggableList"
 
 const router = createBrowserRouter([
   {
@@ -36,6 +37,10 @@ const router = createBrowserRouter([
       {
         path: "/view-based",
         element: <ViewBased />
+      },
+      {
+        path: "/draggable-list",
+        element: <DraggableList />
       },
     ],
   }

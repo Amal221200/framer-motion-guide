@@ -10,6 +10,7 @@ const Navbar = () => {
       <Link to="/view-based">View-Based</Link>
       <Link to="/scroll-based">Scroll-Based</Link>
       <Link to="/staggered">Staggered</Link>
+      <Link to="/draggable-list">Draggable List</Link>
     </nav>
   )
 }
